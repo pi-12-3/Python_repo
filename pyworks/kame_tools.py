@@ -1,10 +1,10 @@
-def center_circle(target):
+def center_circle(target,r):
 	target.penup()
-	target.forward(200)
+	target.forward(r)
 	target.left(90)
 	target.pendown()
-	target.circle(200)
+	target.circle(r)
 	target.left(90)
 	target.penup()
-	target.forward(200)
+	target.forward(r)
 	target.pendown()
