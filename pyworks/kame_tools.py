@@ -1,4 +1,4 @@
-def center_circle(target,r):
+def center_circle(target,r=150):
 	target.penup()
 	target.forward(r)
 	target.left(90)
